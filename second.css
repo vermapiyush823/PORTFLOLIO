@@ -62,5 +62,10 @@
     .second .right-section h2 {
         margin-top: 0%;
     }
-
+    .second .left-section img 
+    {
+        width: 80%;
+        height: 80%;
+        margin-left: 50px;
+    }
 }
