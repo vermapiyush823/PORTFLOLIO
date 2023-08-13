@@ -1,0 +1,110 @@
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem 0;
+}
+
+.first div {
+    width: 30%;
+}
+
+.first .left-section {
+    margin-top: 6.5rem;
+    font-weight: 400;
+    font-size: 2rem;
+    align-items: center;
+}
+.first .left-section p{
+    margin: 0.5rem 0 0 0;
+}
+
+.social_links {
+font-family: 'DM Sans', sans-serif;
+transition: all 0.3s ease;
+font-size: 1.5rem;
+margin: 0 0.5rem 0 0 ;
+}
+.linkedin
+{
+color:#0A66C2;
+}
+.twitter, .github
+{
+color: white;
+}
+.insta
+{
+color:#E1306C;
+}
+.social_links:hover {
+font-size: 2rem;
+}
+.linkedin:hover
+{
+color:#0A66C2;
+}
+
+.twitter:hover , .github:hover
+{
+color: white;
+}
+.insta:hover
+{
+color:#E1306C;
+}
+.right-section img {
+    width: 90%;
+}
+
+.name {
+    color: #DA0037;
+    font-weight: 800;
+    text-decoration:underline;
+}
+
+#element {
+    color: #DA0037;
+    font-weight: 800;
+
+}
+
+.cvbutton {
+    margin-top: 2rem;
+    padding: 1%;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+    color: #ffffff;
+}
+.cvbutton:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .first {
+        margin: 0%;
+        padding: 0%;
+    }
+    .first div {
+        width: 100%;
+    }
+    .first .right-section
+    {
+        display: none;
+    }
+    .first .left-section
+    {
+        font-size: 3rem;
+        padding: 0%;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    #element
+    {
+        margin-bottom: 2rem;
+    }
+}

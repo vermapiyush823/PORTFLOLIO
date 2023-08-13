@@ -1,0 +1,88 @@
+.forth
+{
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+}
+.forth .left-section h2{
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 600;
+    color: #da0037;
+    text-align: center;
+}
+
+.forth .left-section{
+    width: 60%;
+    margin-left: 2rem;
+}
+.forth .left-section li
+{
+    list-style: none;
+}
+.contact-list
+{
+    margin-bottom: 2rem;
+}
+.contact-list i{
+    color: #da0037;
+}
+.forth .right-section{
+    align-items: center;
+    justify-content: center;
+}
+
+.forth .right-section form input ,.forth form button ,.forth form textarea{
+    width: 70%;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 18px;
+    background: #edededaf;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-bottom: 0.5rem;
+    border-radius: 0.5rem;
+} 
+.forth .right-section form textarea{
+    height: 100px;
+}
+.forth .right-section form button{
+    font-size: 1rem;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0%;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.forth .right-section form button:hover{
+    background: #da0037;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .forth{
+        flex-direction: column;
+        height: auto;
+    }
+    .forth .left-section{
+        width: 85%;
+        text-align: center;
+    }
+    .forth .right-section{
+        margin-top: 2rem;
+        width: 70%;
+        margin-left: 5rem;
+    }
+    .forth .right-section form input ,.forth form button ,.forth form textarea{
+        width: 90%;
+    }
+}
+    

@@ -1,0 +1,91 @@
+nav {
+    background-color: #363636;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+    height: 55px;
+}
+
+nav .left {
+    margin-top: 0.1rem;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+nav .right {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0px 20px;
+    transition: 0.4s ease;
+}
+
+nav ul li a:hover {
+    color: #DA0037;
+    font-size: larger;
+}
+
+nav .d-flex {
+    margin-left: 10rem;
+}
+
+nav .me-2 {
+    background-color: #ededed92;
+    border-color: #EDEDED;
+}
+
+.me-2 ::-webkit-input-placeholder {
+    color: #EDEDED;
+}
+
+nav .searchbtn {
+    background-color: #726e6ea1;
+    color: #EDEDED;
+    border-color: #EDEDED;
+}
+
+nav .searchbtn:hover {
+    background-color: #DA0037;
+    color: white;
+    border: #DA0037;
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav .left {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    nav .right {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    nav .d-flex {
+        margin-left: 0rem;
+    }
+    .d-flex .form-control , .d-flex .btn
+    {
+        display: none;
+    }
+}
+    

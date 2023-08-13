@@ -1,0 +1,191 @@
+.skill-heading
+{
+    color: #DA0037;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    text-align: center;
+}
+.third
+{
+    display: flex;
+    padding-bottom: 4rem;
+
+
+}
+.third .left-section
+{
+    margin-left: 100px;
+}
+.third .right-section
+{
+    margin-left: 680px;
+}
+
+.third .left-section h2 , .right-section h2
+{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.bar
+{
+    margin-bottom: 1.2rem;
+    font-size: larger;
+}
+.bar span
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.bar .skills-hr
+{
+    border: #DA0037 solid 3px;
+    opacity: 1;
+    /* margin-top: 1rem; */
+    /* margin:0%; */
+    margin: 0%;
+}
+.progress-bar
+{
+    width: 100%;
+    background-color: black;
+
+}
+.progress-bar span
+{
+    font-size: 0.7rem;
+    margin-top: 2px;
+    margin-left: 1rem;
+    font-weight: 100;
+    /* width: 80%; */
+    text-align: end;
+}
+.progress-bar1 .skills-hr ,.progress-bar1 .span1{
+    width: 90%;
+}
+.progress-bar2 .skills-hr ,.progress-bar2 .span2{
+    width: 80%;
+}
+.progress-bar3 .skills-hr ,.progress-bar3 .span3{
+    width: 75%;
+}
+.progress-bar4 .skills-hr,.progress-bar4 .span4{
+    width: 60%;
+}
+.progress-bar5 .skills-hr,.progress-bar5 .span5{
+    width: 85%;
+}
+.progress-bar6 .skills-hr ,.progress-bar6 .span6{
+    width: 70%;
+}
+.third .right-section .first-row , .second-row
+{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.radial-progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin-top: 20px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: -5rem;
+    margin-right: 12rem;
+
+}
+.radial-progress-bar1{
+    background: 
+      radial-gradient(closest-side, black 79%, transparent 80% 100%),
+      conic-gradient(#DA0037 0% 60%, transparent 75% 100%);    
+}
+.radial-progress-bar1::before
+{
+    content: "75%";
+}
+.radial-progress-bar2{
+    background: 
+      radial-gradient(closest-side, black 79%, transparent 80% 100%),
+      conic-gradient(#DA0037 0% 60%, transparent 80% 100%);    
+}
+.radial-progress-bar2::before
+{
+    content: "80%";
+}
+.radial-progress-bar3{
+    background: 
+      radial-gradient(closest-side, black 79%, transparent 80% 100%),
+      conic-gradient(#DA0037 0% 60%, transparent 85% 100%);
+}
+.radial-progress-bar3::before
+{
+    content: "85%";
+}
+
+.radial-progress-bar4{
+    background: 
+      radial-gradient(closest-side, black 79%, transparent 80% 100%),
+      conic-gradient(#DA0037 0% 60%, transparent 90% 100%);    
+}
+.radial-progress-bar4::before
+{
+    content: "90%";
+}
+
+.radial-progress-bar5{
+    background: 
+      radial-gradient(closest-side, black 79%, transparent 80% 100%),
+      conic-gradient(#DA0037 0% 60%, transparent 90% 100%);    
+}
+.radial-progress-bar5::before
+{
+    content: "85%";
+}
+@media screen and (max-width:768px) {
+    .third
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .third .right-section
+    {
+        margin:0;
+        margin: 80px;
+    }
+
+    .third .right-section .radial-progress-bar
+    {
+        margin: 0.5rem;
+        margin-right: 2rem;
+    }
+    .third .right-section h2
+    {
+        margin-left: 60px;
+    }
+    .third .right-section .radial-progress-bar5
+    {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+    .text2
+    {
+        margin-left: 1rem;
+    }
+    .text1
+    {
+        margin-left: 100px;
+    }
+    .third .left-section
+    {
+        margin-left: 20px;
+    }
+}
