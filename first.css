@@ -54,6 +54,11 @@ color:#E1306C;
 }
 .right-section img {
     width: 90%;
+    margin-top: 2rem;
+    border-right: #DA0037 0.6rem  solid;
+    border-bottom:  #DA0037 0.6rem  solid;
+    border-radius: 50%;
+    
 }
 
 .name {
